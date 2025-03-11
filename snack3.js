@@ -1,6 +1,4 @@
 //*🏆 Snack 3
-/* Crea una funzione eseguiOperazione
-.  */
 
 // Definisci una funzione eseguiOperazione che accetta tre parametri: due numeri e una funzione operatore (callback)
 function eseguiOperazione(a, b, operatore) {

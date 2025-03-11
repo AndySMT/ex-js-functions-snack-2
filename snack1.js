@@ -2,10 +2,10 @@
 
 //? Crea una funzione dichiarativa chiamata somma che accetta due numeri e restituisce la loro somma.
 
-function somma(a, b) {
+function sommaDichiarata(a, b) {
   return a + b;
 }
-console.log(somma(7, 7));
+console.log(sommaDichiarata(7, 7));
 
 //? Definisci la stessa funzione somma ma come funzione anonima assegnata a una variabile
 

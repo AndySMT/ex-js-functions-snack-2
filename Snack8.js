@@ -15,3 +15,21 @@ function contoAllaRovescia(num) {
 }
 
 contoAllaRovescia(6);
+
+///////////////////////////////////////////////////////////
+
+function correzione(n) {
+  let counter = n;
+
+  const timerID = setInterval(() => {
+    if (counter > 0) {
+      console.log(`Correzione ${counter}`);
+      counter--;
+      return;
+    }
+    console.log("Tempo scaduto (correzzione)");
+    clearInterval(timerID);
+  }, 1000);
+}
+
+correzione(8);

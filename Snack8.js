@@ -4,12 +4,13 @@ Scrivi una funzione contoAllaRovescia che accetta un numero n e stampa il conto 
 
 function contoAllaRovescia(num) {
   for (let i = num; i >= 0; i--) {
+    console.log(i);
     setTimeout(() => {
       console.log(i);
       if (i === 0) {
         console.log("Tempo Scaduto");
       }
-    }, 10000);
+    }, num * 1000);
   }
 }
 
